@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.compass {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 8px solid #533E8B; /* dark purple circle */
+  border-radius: 50%;
+}
+
+.compass::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #533E8B; /* arrow color */
+  transform: translate(-50%, -60%) rotate(0deg);
+}
+
+/* Crosshair lines */
+.compass::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    linear-gradient(0deg, #533E8B 8px, transparent 4px) no-repeat center,
+    linear-gradient(90deg, #533E8B 8px, transparent 4px) no-repeat center,
+    linear-gradient(180deg, #533E8B 8px, transparent 4px) no-repeat center,
+    linear-gradient(270deg, #533E8B 8px, transparent 4px) no-repeat center;
+  background-size: 4px 100%, 100% 4px;
+}
+
+.scale {
+  transform: scale(0.33); /* 1/3 size */
+  transform-origin: center;
+}

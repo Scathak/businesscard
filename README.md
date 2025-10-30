@@ -1,2 +1,2 @@
-# businesscard
-Landing page
+# Business card site
+React + Vite
