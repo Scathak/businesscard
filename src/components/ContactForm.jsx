@@ -23,7 +23,7 @@ export const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} className="max-w-3xl">
       <label className="block mb-3">
-        <div className="text-sm font-medium">Name*</div>
+        <div className="text-sm font-medium">Name</div>
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -32,7 +32,7 @@ export const ContactForm = () => {
         />
       </label>
       <label className="block mb-3">
-        <div className="text-sm font-medium">Email*</div>
+        <div className="text-sm font-medium">Email</div>
         <input
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -51,7 +51,7 @@ export const ContactForm = () => {
         />
       </label>
       <div className="flex items-center gap-4">
-        <button type="submit" className="px-5 py-2 bg-slate-900 text-white rounded">
+        <button type="submit" className="px-5 py-2 bg-[#533E8B] text-white rounded">
           Submit
         </button>
         {sent && <div className="text-green-600">Message was sent, thank you.</div>}
