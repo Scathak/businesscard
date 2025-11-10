@@ -8,6 +8,7 @@ import { BlogTeaser } from "./components/BlogTeaser";
 import { BookOnline } from "./components/BookOnline";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import prj0001 from "./assets/prj0001.png";
 
 export default function App() {
   useGoogleTag();
@@ -17,19 +18,7 @@ export default function App() {
       id: 1,
       title: "Auto Dealership Dashboard",
       blurb: "Dashboard and reporting for dealer networks.",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop",
-    },
-    {
-      id: 2,
-      title: "E-commerce Migration",
-      blurb: "Headless commerce and performance optimization.",
-      image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=800&auto=format&fit=crop",
-    },
-    {
-      id: 3,
-      title: "AI Marketing Toolkit",
-      blurb: "Automated tagging, scoring and campaign optimization.",
-      image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=800&auto=format&fit=crop",
+      image: prj0001,
     },
   ];
 
