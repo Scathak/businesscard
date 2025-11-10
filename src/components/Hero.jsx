@@ -1,13 +1,21 @@
 import { Strip } from "./Strip";
+import bgr0002 from "../assets/bgr0002.png";
 
 export const Hero = () => (
   <Strip id="home">
-    <div className="bg-gradient-to-r from-slate-50 to-white">
-      <div className="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div className="bg-gray-200 ">
+          <div className="flex justify-center mb-8 py-6">
+            <img
+              alt="hero"
+              src={bgr0002}
+              className=" h-[245px]"
+            />
+          </div>
+      <div className="max-w-6xl mx-auto px-6 py-20 ">
         <div>
-          <h1 className="text-4xl md:text-5xl font-extrabold">
+          <h2 className="text-4xl md:text-5xl font-extrabold">
             Guiding Businesses Through the New Marketing Frontier
-          </h1>
+          </h2>
           <p className="mt-6 text-lg text-slate-700">
             We blend technology, data, and strategy to help you reduce agency
             dependency, optimize your marketing engine, and take control of your
@@ -24,13 +32,6 @@ export const Hero = () => (
               Download Whitepaper
             </a>
           </div>
-        </div>
-        <div className="rounded overflow-hidden shadow-lg bg-gray-50 p-6">
-          <img
-            alt="hero"
-            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop"
-            className="w-full h-64 object-cover rounded"
-          />
         </div>
       </div>
     </div>
