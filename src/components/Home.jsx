@@ -1,8 +1,16 @@
 import { Strip } from "./Strip";
+import background from "../assets/bgr0001.jpg";
 
-export const Hero = () => (
-  <Strip id="home">
-    <div className="bg-gradient-to-r from-slate-50 to-white">
+export const Home = () => (
+  <Strip id="home" 
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundRepeat: "repeat",
+          backgroundSize: "90px 90px",
+        }}
+  >
+
+    <div className="bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold">
@@ -16,11 +24,11 @@ export const Hero = () => (
           <div className="mt-6 flex gap-4">
             <a
               href="#contact"
-              className="px-5 py-3 bg-slate-900 text-white rounded-md"
+              className="px-5 py-3 text-white rounded-md bg-[#533E8B]"
             >
               Contact us
             </a>
-            <a href="#download" className="px-5 py-3 border rounded-md">
+            <a href="#download" className="px-5 py-3 border rounded-md bg-[#533E8B] text-white">
               Download Whitepaper
             </a>
           </div>
