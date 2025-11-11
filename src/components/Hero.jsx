@@ -3,7 +3,7 @@ import bgr0002 from "../assets/bgr0002.png";
 
 export const Hero = () => (
   <Strip id="home">
-    <div className="bg-gray-200 ">
+    <div className="bg-gray-200 " style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <div className="flex justify-center mb-8 py-6">
         <img
           alt="hero"

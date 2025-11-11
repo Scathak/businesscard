@@ -3,7 +3,7 @@ import background from "../assets/bgr0001.jpg";
 
 export const Home = () => (
   <Strip id="home" >
-    <div className="bg-gray-50" >
+    <div className="bg-gray-50" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <div className="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold">
@@ -21,18 +21,12 @@ export const Home = () => (
             >
               Contact us
             </a>
-            <a href="#download" className="px-5 py-3 border rounded-md bg-[#533E8B] text-white">
+            <a href="#blog" className="px-5 py-3 border rounded-md bg-[#533E8B] text-white">
               Download Whitepaper
             </a>
           </div>
         </div>
-        <div className="rounded overflow-hidden shadow-lg bg-gray-50 p-6">
-          <img
-            alt="hero"
-            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop"
-            className="w-full h-64 object-cover rounded"
-          />
-        </div>
+
       </div>
     </div>
   </Strip>

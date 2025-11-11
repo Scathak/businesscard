@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { Strip } from "./Strip";
-
 import article1 from "../assets/pdfs/Human_Marketers_vs_by_Dean_Rodionoff.pdf"
 import article2 from "../assets/pdfs/GTM_operator_confessions_by_Dean_Rodionoff.pdf"
 import article3 from "../assets/pdfs/Sales_Enablement_by_Dean_Rodionoff.pdf"
 import article4 from "../assets/pdfs/Vibe_coding_by_Dean_Rodionoff.pdf"
+import article5 from "../assets/pdfs/Prompting_Techniques_How_to_Communicate_Effectively_with_AI_Models.pdf"
 
 export const BlogTeaser = () => (
   <Strip id="blog">
-    <div className="max-w-6xl mx-auto px-6 bg-slate-50 rounded p-8">
+    <div className="max-w-6xl mx-auto px-6 bg-gray-100 rounded p-8" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <h2 className="text-2xl font-bold">Latest Insights</h2>
       <div className="mt-6 grid sm:grid-cols-2 gap-6">
         <motion.article
@@ -69,6 +69,7 @@ export const BlogTeaser = () => (
           <p className="mt-2 text-sm text-slate-600">
             Prompt engineering, or the art of designing prompts, is the foundation of effective interaction with large language models (LLMs). Whether you’re a developer, researcher, or educator...
           </p>
+          <a href={article5} className="mt-2 inline-block text-sm text-[#533E8B] underline">Download PDF</a>
         </motion.article>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { Strip } from "./Strip";
 
 export const Services = () => (
   <Strip id="about">
-    <div className="max-w-6xl mx-auto px-6">
+    <div className="max-w-6xl mx-auto px-6" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <h2 className="text-2xl font-bold">
         Tech-Driven. Business-Smart. Results-Obsessed.
       </h2>

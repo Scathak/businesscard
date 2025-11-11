@@ -12,7 +12,7 @@ export const Nav = () => {
   ];
 
   return (
-    <header className="sticky top-0 bg-white/90 backdrop-blur z-20 shadow-sm">
+    <header className="sticky top-0 bg-white/90 backdrop-blur z-20 shadow-sm" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <div className="w-10 h-10 bg-black text-white rounded flex items-center justify-center font-bold">
