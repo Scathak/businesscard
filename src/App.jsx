@@ -8,7 +8,7 @@ import { BlogTeaser } from "./components/BlogTeaser";
 import { BookOnline } from "./components/BookOnline";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import prj0001 from "./assets/prj0001.png";
+import prj0001 from "./assets/images/prj0001.png";
 
 export default function App() {
   useGoogleTag();
@@ -23,7 +23,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-slate-800 scroll-smooth">
+    <div className="min-h-screen bg-[#EDEDED] text-[#533E8B] scroll-smooth">
       <Nav />
       <Hero />
       <Services />

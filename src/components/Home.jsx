@@ -1,9 +1,9 @@
 import { Strip } from "./Strip";
-import background from "../assets/bgr0001.jpg";
+import background from "../assets/images/bgr0001.jpg";
 
 export const Home = () => (
   <Strip id="home" >
-    <div className="bg-gray-50" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
+    <div className="bg-gray-50" style={{fontFamily: "'Space Grotesk', sans-serif"}} >
       <div className="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold">

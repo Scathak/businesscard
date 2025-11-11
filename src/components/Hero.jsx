@@ -1,9 +1,10 @@
 import { Strip } from "./Strip";
-import bgr0002 from "../assets/bgr0002.png";
+import bgr0002 from "../assets/images/bgr0002.png";
+import bgr0001 from "../assets/images/bgr0001.jpg";
 
 export const Hero = () => (
   <Strip id="home">
-    <div className="bg-gray-200 " style={{fontFamily: "'Space Grotesk', sans-serif"}}>
+    <div style={{fontFamily: "'Space Grotesk', sans-serif", backgroundImage: `url(${bgr0001})`}}>
       <div className="flex justify-center mb-8 py-6">
         <img
           alt="hero"
@@ -16,7 +17,7 @@ export const Hero = () => (
           <h2 className="text-4xl md:text-5xl font-extrabold">
             Guiding Businesses Through the New Marketing Frontier
           </h2>
-          <p className="mt-6 text-lg text-slate-700">
+          <p className="mt-6 text-lg">
             We blend technology, data, and strategy to help you reduce agency
             dependency, optimize your marketing engine, and take control of your
             growth.
@@ -24,11 +25,11 @@ export const Hero = () => (
           <div className="mt-6 flex gap-4">
             <a
               href="#contact"
-              className="px-5 py-3 bg-slate-900 text-white rounded-md"
+              className="px-5 py-3 bg-[#533E8B] text-white rounded-md"
             >
               Contact us
             </a>
-            <a href="#download" className="px-5 py-3 border rounded-md">
+            <a href="#blog" className="px-5 py-3 border rounded-md bg-[#EBEBEB]">
               Download Whitepaper
             </a>
           </div>

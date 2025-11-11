@@ -21,7 +21,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-3xl" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
+    <form onSubmit={handleSubmit} className="max-w-3xl bg-[#EBEBEB]" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <label className="block mb-3">
         <div className="text-sm font-medium">Name</div>
         <input
