@@ -2,15 +2,8 @@ import { Strip } from "./Strip";
 import background from "../assets/bgr0001.jpg";
 
 export const Home = () => (
-  <Strip id="home" 
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "repeat",
-          backgroundSize: "90px 90px",
-        }}
-  >
-
-    <div className="bg-gray-50">
+  <Strip id="home" >
+    <div className="bg-gray-50" >
       <div className="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div>
           <h1 className="text-4xl md:text-5xl font-extrabold">

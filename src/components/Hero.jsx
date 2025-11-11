@@ -4,13 +4,13 @@ import bgr0002 from "../assets/bgr0002.png";
 export const Hero = () => (
   <Strip id="home">
     <div className="bg-gray-200 ">
-          <div className="flex justify-center mb-8 py-6">
-            <img
-              alt="hero"
-              src={bgr0002}
-              className=" h-[245px]"
-            />
-          </div>
+      <div className="flex justify-center mb-8 py-6">
+        <img
+          alt="hero"
+          src={bgr0002}
+          className=" h-[245px]"
+        />
+      </div>
       <div className="max-w-6xl mx-auto px-6 py-20 ">
         <div>
           <h2 className="text-4xl md:text-5xl font-extrabold">
