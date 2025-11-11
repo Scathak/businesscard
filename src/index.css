@@ -4,3 +4,71 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Main compass circle */
+.compass {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: 8px solid #533E8B; /* Dark purple border */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Compass arrow (triangle) */
+.compass::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 60px solid #533E8B; /* arrow color */
+  transform: translate(-50%, -60%);
+}
+
+/* Dash base style */
+.dash {
+  position: absolute;
+  background: #533E8B;
+  width: 4px;
+  height: 20px; /* dash length */
+  border-radius: 2px;
+}
+
+/* Top dash */
+.dash.top {
+  top: -13px; /* moves outside the circle */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Bottom dash */
+.dash.bottom {
+  bottom: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Left dash */
+.dash.left {
+  left: -7px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+/* Right dash */
+.dash.right {
+  right: -7px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.scale {
+  transform: scale(0.25); /* 0.33 = 1/3 size */
+  transform-origin: top;
+}
+

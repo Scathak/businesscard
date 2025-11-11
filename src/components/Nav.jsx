@@ -15,12 +15,19 @@ export const Nav = () => {
     <header className="sticky top-0 bg-white/90 backdrop-blur z-20 shadow-sm" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="w-10 h-10 flex items-center justify-center font-bold">
-            MC
+          <div className="w-10 h-10 items-center justify-center font-bold">
+            <div class="scale">
+              <div class="compass">
+                <div class="dash top"></div>
+                <div class="dash bottom"></div>
+                <div class="dash left"></div>
+                <div class="dash right"></div>
+              </div>
+            </div>
           </div>
           <div>
-            <div className="text-lg font-semibold">Market Captains</div>
-            <div className="text-xs">
+            <div className="text-lg font-semibold " style={{fontFamily: "'Sora', sans-serif"}}>MARKET CAPTAINS</div>
+            <div className="text-xs" >
               Tech-driven. Business-smart.
             </div>
           </div>
