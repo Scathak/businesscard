@@ -15,20 +15,20 @@ export const Nav = () => {
     <header className="sticky top-0 bg-white/90 backdrop-blur z-20 shadow-sm" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="w-10 h-10 bg-black text-white rounded flex items-center justify-center font-bold">
+          <div className="w-10 h-10 flex items-center justify-center font-bold">
             MC
           </div>
           <div>
             <div className="text-lg font-semibold">Market Captains</div>
-            <div className="text-xs text-gray-500">
+            <div className="text-xs">
               Tech-driven. Business-smart.
             </div>
           </div>
         </div>
         <div className="md:hidden">
           <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="text-slate-800 border px-3 py-1 rounded"
+            onClick={() => setMenuOpen(!menuOpen)}z
+            className="border px-3 py-1 rounded"
           >
             ☰ Menu
           </button>
@@ -38,7 +38,7 @@ export const Nav = () => {
             <a
               key={l.name}
               href={l.href}
-              className="block md:inline-block text-slate-700 hover:text-slate-900 py-1"
+              className="block md:inline-block py-1"
             >
               {l.name}
             </a>
