@@ -18,21 +18,19 @@ export const Services = () => (
           <div className="grid md:grid-rows-2">
           
             At Market Captains, we unite technical and business expertise to help SMEs master the evolving marketing landscape. <br/>Our work combines:
-          
-          <ul className="grid md:grid-rows-3 gap-4">
-            <li className="p-4 border rounded">
+          <ul>
+            <li>
               <h3 className="font-semibold">Marketing automation</h3>
               <p className="text-sm mt-1">
                 Marketing automation that actually saves you time and money
               </p>
             </li>
-            <li className="p-4 border rounded">
-              <h3 className="font-semibold">Data intelligence</h3>
+            <li><h3 className="font-semibold">Data intelligence</h3>
               <p className="text-sm mt-1">
                 Data intelligence connecting GA4, CRM, and ad platforms.
               </p>
             </li>
-            <li className="p-4 border rounded">
+            <li>              
               <h3 className="font-semibold">Collaborative workflows</h3>
               <p className="text-sm mt-1">
                 Collaborative workflows that bring your team together.

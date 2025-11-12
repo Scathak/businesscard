@@ -8,6 +8,7 @@ export const Nav = () => {
     { name: "Portfolio", href: "#portfolio" },
     { name: "Blog", href: "#blog" },
     { name: "Book Online", href: "#book" },
+    { name: "Team", href: "#team" },
     { name: "Contact", href: "#contact" }
   ];
 

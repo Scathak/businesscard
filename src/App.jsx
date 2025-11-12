@@ -6,6 +6,7 @@ import { Services } from "./components/Services";
 import { Portfolio } from "./components/Portfolio";
 import { BlogTeaser } from "./components/BlogTeaser";
 import { BookOnline } from "./components/BookOnline";
+import { Team } from "./components/Team";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import prj0001 from "./assets/images/prj0001.png";
@@ -30,6 +31,7 @@ export default function App() {
       <Portfolio projects={projects} />
       <BlogTeaser />
       <BookOnline />
+      <Team />
       <Contact />
       <Footer />
     </div>
