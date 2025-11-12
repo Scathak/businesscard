@@ -6,18 +6,25 @@ export const ContactForm = () => {
   const [message, setMessage] = useState("");
   const [sent, setSent] = useState(false);
 
-  const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
-    const subject = `Website contact from ${name || "Anonymous"}`;
-    const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
-    const mailto = `mailto:market_captains@protonmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailto;
-
-    setSent(true);
-    setTimeout(() => setSent(false), 8000);
-    setName("");
-    setEmail("");
-    setMessage("");
+    try {
+      const res = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (res.ok) {
+        setSent(true);
+        setTimeout(() => setSent(false), 8000);
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        alert("Error sending message. Try again later.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Network error.");
+    }
   };
 
   return (
