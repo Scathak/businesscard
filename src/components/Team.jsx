@@ -8,9 +8,9 @@ export const Team = () => (
     <div className="max-w-6xl mx-auto px-6" style={{fontFamily: "'Space Grotesk', sans-serif"}}>
       <h2 className="text-2xl font-bold">Meet captains</h2>
       <p className="mt-3">
-        Dmitry Rodionov
+        Dean Rodionoff
       </p>
-      <div >Dmitry is a seasoned professional with a deep understanding of affiliate marketing strategies and campaign optimization.</div>
+      <div >Dean is a seasoned professional with a deep understanding of affiliate marketing strategies and campaign optimization.</div>
       <div >
           <img
           alt="pht0001"
