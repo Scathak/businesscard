@@ -1,15 +1,16 @@
 import { Strip } from "./Strip";
-import bgr0002 from "../assets/images/bgr0002.png";
 import bgr0001 from "../assets/images/bgr0001.jpg";
+import videoHeader from "../assets/video/Vde0001.mp4";
 
 export const Hero = () => (
   <Strip id="home">
     <div style={{fontFamily: "'Space Grotesk', sans-serif", backgroundImage: `url(${bgr0001})`}}>
       <div className="flex justify-center mb-8 py-6">
-        <img
-          alt="hero"
-          src={bgr0002}
-          className=" w-[1580] h-[245px]"
+        <video
+          src={videoHeader}
+          autoPlay
+          loop
+          playsInline
         />
       </div>
       <div className="max-w-6xl mx-auto px-6 py-20 ">
