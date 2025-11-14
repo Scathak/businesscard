@@ -11,6 +11,7 @@ export const Hero = () => (
           autoPlay
           loop
           playsInline
+          className="object-cover"
         />
       </div>
       <div className="max-w-6xl mx-auto px-6 py-20 ">
@@ -23,7 +24,7 @@ export const Hero = () => (
             dependency, optimize your marketing engine, and take control of your
             growth.
           </p>
-          <div className="mt-6 flex gap-4">
+          <div className="mt-6 flex gap-4 will-change-auto">
             <a
               href="#contact"
               className="px-5 py-3 bg-[#533E8B] text-white rounded-md"

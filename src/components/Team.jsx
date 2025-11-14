@@ -11,7 +11,7 @@ export const Team = () => (
         Dean Rodionoff
       </p>
       <div >Dean is a seasoned GO-to-market specialist with deep expertise in paid growth optimization, enablement and feedback loop automation.</div>
-      <div >
+      <div>
           <img
           alt="pht0001"
           src={pht0001}

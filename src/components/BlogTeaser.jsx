@@ -38,7 +38,7 @@ export const BlogTeaser = () => (
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.7 }}
           className="p-4 border rounde"
         >
           <h3 className="font-semibold">Vibe Coding Unpacked: Discovering AI-Driven App Making</h3>
@@ -50,7 +50,7 @@ export const BlogTeaser = () => (
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8 }}
           className="p-4 border rounded"
         >
           <h3 className="font-semibold">Human Marketers vs. Autonomous AI: Myth, Math, and Momentum</h3>
@@ -62,7 +62,7 @@ export const BlogTeaser = () => (
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.9 }}
           className="p-4 border rounded"
         >
           <h3 className="font-semibold">Prompting Techniques: How to Communicate Effectively with AI Models</h3>

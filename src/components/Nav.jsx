@@ -7,7 +7,7 @@ export const Nav = () => {
     { name: "About", href: "#about" },
     { name: "Portfolio", href: "#portfolio" },
     { name: "Blog", href: "#blog" },
-    { name: "Book Online", href: "#book" },
+    { name: "Book a Demo", href: "#book" },
     { name: "Team", href: "#team" },
     { name: "Contact", href: "#contact" }
   ];
