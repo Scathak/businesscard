@@ -38,7 +38,7 @@ export const Nav = () => {
             onClick={() => setMenuOpen(!menuOpen)}z
             className="border px-3 py-1 rounded"
           >
-            ☰ Menu
+            ☰ 
           </button>
         </div>
         <nav className={`md:flex gap-6 ${menuOpen ? "block mt-4" : "hidden md:flex"}`}>
