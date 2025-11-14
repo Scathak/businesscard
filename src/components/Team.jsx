@@ -10,7 +10,7 @@ export const Team = () => (
       <p className="mt-3">
         Dean Rodionoff
       </p>
-      <div >Dean is a seasoned professional with a deep understanding of affiliate marketing strategies and campaign optimization.</div>
+      <div >Dean is a seasoned GO-to-market specialist with deep expertise in paid growth optimization, enablement and feedback loop automation.</div>
       <div >
           <img
           alt="pht0001"

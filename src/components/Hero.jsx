@@ -10,7 +10,6 @@ export const Hero = () => (
           alt="hero"
           src={bgr0002}
           className=" w-[1580] h-[245px]"
-          style={{ position: "absolute" }}
         />
       </div>
       <div className="max-w-6xl mx-auto px-6 py-20 ">
