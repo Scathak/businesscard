@@ -17,7 +17,7 @@ export const Portfolio = ({ projects }) => (
             <img src={p.image} alt={p.title} className="w-full h-44 object-cover" />
             <div className="p-4">
               <h3 className="font-semibold">{p.title}</h3>
-              <p className="text-sm text-slate-600 mt-2">{p.blurb}</p>
+              <p className="text-sm mt-2">{p.blurb}</p>
             </div>
           </motion.article>
         ))}
