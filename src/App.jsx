@@ -1,5 +1,4 @@
 import React from "react";
-import { useGoogleTag } from "./hooks/useGoogleTag";
 import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { Services } from "./components/Services";
@@ -12,8 +11,6 @@ import { Footer } from "./components/Footer";
 import prj0001 from "./assets/images/prj0001.png";
 
 export default function App() {
-  useGoogleTag();
-
   const projects = [
     {
       id: 1,
