@@ -27,11 +27,11 @@ export const Hero = () => (
           <div className="mt-6 flex gap-4 will-change-auto">
             <a
               href="#contact"
-              className="px-5 py-3 bg-[#533E8B] text-white rounded-md"
+              className="px-5 py-3 bg-[#533E8B] text-white rounded-md text-sm"
             >
               Contact us
             </a>
-            <a href="#blog" className="px-5 py-3 border rounded-md bg-[#EBEBEB]">
+            <a href="#blog" className="px-5 py-3 border rounded-md bg-[#EBEBEB] text-sm">
               Download Whitepaper
             </a>
           </div>
