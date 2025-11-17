@@ -1,4 +1,3 @@
-import React from "react";
 import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { Services } from "./components/Services";
@@ -9,8 +8,19 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import prj0001 from "./assets/images/prj0001.png";
+import React, { useEffect } from "react";
 
 export default function App() {
+  useEffect(() => {
+    const homeSection = document.getElementById("home");
+
+    if (homeSection) {
+      window.scrollTo({
+        top: homeSection.offsetTop,
+        behavior: "smooth"
+      });
+    }
+  }, []);
 
   const projects = [
     {
