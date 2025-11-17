@@ -11,6 +11,7 @@ import { Footer } from "./components/Footer";
 import prj0001 from "./assets/images/prj0001.png";
 
 export default function App() {
+
   const projects = [
     {
       id: 1,
