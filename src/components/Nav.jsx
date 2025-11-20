@@ -41,7 +41,7 @@ export const Nav = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between relative">
 
         {/* Logo section */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-5">
           <div className="w-10 h-10 items-center justify-center font-bold">
             <div className="scale">
               <div className="compass">

@@ -1,20 +1,22 @@
 import { Strip } from "./Strip";
+import { HeroVideo } from "./HeroVideo";
 import bgr0001 from "../assets/images/bgr0001.jpg";
 import videoHeader from "../assets/video/Vde0001.mp4";
 
 export const Hero = () => (
   <Strip id="home">
     <div style={{fontFamily: "'Space Grotesk', sans-serif", backgroundImage: `url(${bgr0001})`}}>
-      <div className="flex justify-center mb-8 py-6">
-        <video
-          src={videoHeader}
-          autoPlay
-          loop
-          playsInline
-          className="object-cover"
-        />
-      </div>
-      <div className="max-w-6xl mx-auto px-6 py-20 ">
+
+      <div className="max-w-6xl mx-auto px-6 py-6">
+        <div className="flex justify-center mb-8">
+          <video
+            src={videoHeader}
+            autoPlay
+            loop
+            playsInline
+            className="object-cover"
+          />
+        </div>
         <div>
           <h2 className="text-4xl md:text-5xl font-extrabold">
             Guiding Businesses Through the New Marketing Frontier
@@ -35,6 +37,9 @@ export const Hero = () => (
               Download Whitepaper
             </a>
           </div>
+        </div>
+        <div className="flex justify-center mb-8 py-20">
+          <HeroVideo />
         </div>
       </div>
     </div>
