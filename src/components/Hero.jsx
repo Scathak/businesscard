@@ -12,7 +12,8 @@ export const Hero = () => (
           <HeroVideo />
         </div>
         <div>
-          <h2 className="text-4xl md:text-5xl font-extrabold">
+          <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-b from-[#5161d8] to-[#533E8B] bg-clip-text text-transparent">
+            
             Guiding Businesses Through the New Marketing Frontier
           </h2>
           <p className="mt-6 text-lg">
