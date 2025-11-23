@@ -1,3 +1,4 @@
+import { useGoogleTag } from "./hooks/useGoogleTag";
 import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { Services } from "./components/Services";
@@ -11,6 +12,7 @@ import prj0001 from "./assets/images/prj0001.png";
 import React, { useEffect } from "react";
 
 export default function App() {
+  useGoogleTag();
   useEffect(() => {
     const homeSection = document.getElementById("home");
 
