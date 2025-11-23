@@ -9,13 +9,7 @@ export const Hero = () => (
 
       <div className="max-w-6xl mx-auto px-6 py-6">
         <div className="flex justify-center mb-8">
-          <video
-            src={videoHeader}
-            autoPlay
-            loop
-            playsInline
-            className="object-cover"
-          />
+          <HeroVideo />
         </div>
         <div>
           <h2 className="text-4xl md:text-5xl font-extrabold">
@@ -37,9 +31,6 @@ export const Hero = () => (
               Download Whitepaper
             </a>
           </div>
-        </div>
-        <div className="flex justify-center mb-8 py-20">
-          <HeroVideo />
         </div>
       </div>
     </div>

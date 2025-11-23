@@ -8,6 +8,7 @@ import article2 from "../assets/pdfs/GTM_operator_confessions_by_Dean_Rodionoff.
 import article3 from "../assets/pdfs/Sales_Enablement_by_Dean_Rodionoff.pdf";
 import article4 from "../assets/pdfs/Vibe_coding_by_Dean_Rodionoff.pdf";
 import article5 from "../assets/pdfs/Prompting_Techniques_How_to_Communicate_Effectively_with_AI_Models.pdf";
+import article6 from "../assets/pdfs/The_Most_Overlooked_Bottleneck_in_SME_Marketing_art.pdf";
 
 export const BlogTeaser = () => {
   const [showForm, setShowForm] = useState(false);
@@ -132,6 +133,24 @@ export const BlogTeaser = () => {
             </button>
           </motion.article>
 
+          {/* ARTICLE 6 */}
+          <motion.article
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9 }}
+            className="p-4 border rounded"
+          >
+            <h3 className="font-semibold">The Most Overlooked Bottleneck in SME Marketing: Humans Running the Machines</h3>
+            <p className="mt-2 text-sm">
+              I have been observing something across auto retail, financial services boutiques, and even tech companies that should already know better...
+            </p>
+            <button
+              onClick={() => handleOpenForm(article6)}
+              className="mt-2 inline-block text-sm text-[#533E8B] underline"
+            >
+              Download PDF
+            </button>
+          </motion.article>
         </div>
       </div>
 
